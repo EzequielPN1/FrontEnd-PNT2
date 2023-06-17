@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 const axiosClient = axios.create({
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://server-controlgastos.glitch.me/',
     headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
